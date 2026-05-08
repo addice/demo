@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class WelcomeController {
 	
+	//check include in for tracking
+	
 	
 	@GetMapping("/")
 	public String getIndex() {
